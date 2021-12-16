@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SLIDER</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .kul {
+        width: 60%;
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url("IMAGES/Screenshot\ \(9\).png");
+        background-size: 100% 100%;
+        animation: slider 11s infinite linear;
+      }
+
+      @keyframes slider {
+        0% {
+          background-image: url("images/Screenshot\ \(9\).png");
+        }
+
+        33% {
+          background-image: url("images/Screenshot\ \(6\).png");
+        }
+
+        67% {
+          background-image: url("images/Screenshot\ \(4\).png");
+        }
+      }
+      h1 {
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML SLIDER MADE BY SHUBHAM SAMMAL</h1>
+    <div class="kul"></div>
+  </body>
+</html>
